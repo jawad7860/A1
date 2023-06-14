@@ -26,11 +26,6 @@ jobs:
 
     - name: Run Pylint
       run: pylint add.py
-      
-    - name: Move file to master branch
-      run: |
-        git checkout master
-        git merge B1
-        git push origin master
+  
 
 

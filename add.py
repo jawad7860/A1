@@ -1,3 +1,7 @@
+"""
+This module defines a function to add two numbers.
+"""
+
 def add(x, y):
     """
     Adds two numbers and returns the result.

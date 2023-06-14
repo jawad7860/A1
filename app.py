@@ -3,6 +3,7 @@ from flask import request
 
 app = Flask(__name__)
 
+
 @app.route("/calculate", methods = ["POST"])
 def Calculate():
     

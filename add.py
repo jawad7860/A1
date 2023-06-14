@@ -1,3 +1,12 @@
-def add(x,y):
+def add(x, y):
+    """
+    Adds two numbers and returns the result.
 
-	return x+y
+    Args:
+        x (int): The first number.
+        y (int): The second number.
+
+    Returns:
+        int: The sum of x and y.
+    """
+    return x + y

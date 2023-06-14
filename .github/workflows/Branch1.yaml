@@ -30,7 +30,7 @@ jobs:
     - name: Move file to master branch
       run: |
         git checkout master
-        git pull origin B1 --ff-only
+        git merge B1
         git push origin master
 
 
